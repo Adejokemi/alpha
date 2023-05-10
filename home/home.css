@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.header-container{
+    background-image: url(/home/assets/imagelanding.png);
+    padding: 20px;
+    height: 790px;
+    max-width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; ;
+}
+.navbar{
+    background-color: white;
+    text-align: right;
+    p
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    display: inline;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: purple;
+}
+.header-text{
+    padding: 20px;
+    margin: 30px;
+}
+.header-text h1{
+    margin-top: 100px;
+    font-size: 4em;
+    color: blueviolet;
+}
+.header-text p{
+    margin-left: 900px;
+    margin-top: 100px;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    color: blueviolet;
+}
+.header-container button{
+    font-size: 1em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 70px;
+    border: 2px solid white;
+     border-radius: 10px;
+     padding: 15px;
+     margin-left: 1150px;
+}
