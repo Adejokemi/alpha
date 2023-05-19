@@ -1,0 +1,2 @@
+# alpha
+Attendance taking app
