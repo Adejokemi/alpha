@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/* This is for the TIIDETrack logo*/
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    margin-left: 150px;
+}
+.fa-bell{
+  padding-left: 800px;
+}
+.dashee{
+    background-color: #932c2c;
+    height: 16vh;
+}
+.container{
+    display: flex;
+}
+ul{
+    margin-top: 50px;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 120vh;
+    left: 0;
+    background: #fff;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+li{
+    margin: 10px;
+}
+/* This is for the Selects and buttons*/
+.main{
+    width: 1100px;
+}
+.main-top{
+    margin-left: 150px;
+    margin-top: 5px
+}
+.row{
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 0;
+}
+h3{
+    color: #ccc;
+}
+.wiy{
+    color: black;
+}
+.men{
+    margin-left: 20px;
+}
+.ment{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+p{
+    margin-left: 5px;
+}
+.pen{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.ten{
+    background-color: #c33a3a;
+}
+.den{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.fa{
+    color: grey;
+    font-size: 30px;
+}
+button{
+    background-color: #932c2c;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* margin-left: 260px; */
+    width: 400px;
+    height: 50px;
+}
+@media screen and (max-width: 780px) {
+}

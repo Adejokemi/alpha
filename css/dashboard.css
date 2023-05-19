@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/* This is for the TIIDETrack logo*/
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    padding-left: 150px;
+}
+.fa-bell{
+  padding-left: 800px;
+}
+.dashee{
+    background-color: #932c2c;
+    height: 16vh;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+ul{
+  margin-top: 30px;
+}
+li{
+    margin: 10px;
+}
+
+
+/* This is for the Selects and buttons*/
+.sub{
+  width: 250px;
+  font-size: 18px;
+  height: 27px;
+}
+.main{
+    width: 1100px;
+}
+.main-top{
+    margin-left: 160px;
+    margin-top: 25px;
+}
+.take{
+  padding-left: 250px;
+  margin-top: -70px;
+}
+.profiles{
+  margin-left: 150px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 5px 50px 5px 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdown-toggle {
+    display: none;
+}
+
+.dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+  
+.dropdown-icon i {
+    font-size: 12px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #932c2c;
+
+}
+  
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.556);
+}
+  
+.dropdown-toggle:checked ~ .dropdown-content {
+    display: block;
+}
+
+.box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      .box{
+        background-color: white;
+        width: 320px;
+        height: 180px;
+        margin-top: 50px;
+      }
+      .ut{
+        padding-top: 22px;
+      }
+      .un{
+        padding-top: 30px;
+      }
+      .up{
+        padding-top: 35px;
+      }
+      .mit{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .mill{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .buttons {
+        margin-top: 10px;
+        text-align: center;
+      }
+      p{
+        font-weight: 600;
+      }
+      button{
+        background-color: #932c2c;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 430px;
+        width: 400px;
+        height: 40px;
+      }
+      @media screen and (max-width: 780px) {
+      } 
+
+      .milk{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: -85px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 380px;
+        width: 200px;
+        height: 30px;
+      }
+
+      .take{
+        padding-left: 800px;
+      }
+  
+      #myForm {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-left: 430px;
+      }
+  
+      /* Style for form labels */
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      /* Style for form inputs */
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+  
+      /* Style for the submit button */
+      input[type="submit"] {
+        background-color: #951818;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #myForm.show {
+        display: block;
+      }
+  
