@@ -221,3 +221,6 @@ p {
   padding: 15px;
   font-weight: lighter;
 }
+@media screen and (max-width: 780px) {
+        
+}
