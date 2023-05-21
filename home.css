@@ -13,7 +13,7 @@ body{
     color: whitesmoke;
 }
 .header-container{
-    background-image:url(assets/image_1.jpg);
+    background-image:url(home/assets/image_1.jpg));
     background-color: black;
     padding: 20px;
     height: 850px;

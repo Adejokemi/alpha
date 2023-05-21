@@ -185,8 +185,7 @@ li{
         width: 400px;
         height: 40px;
       }
-      @media screen and (max-width: 780px) {
-      } 
+      
 
       .milk{
         text-align: center;
@@ -240,4 +239,11 @@ li{
       #myForm.show {
         display: block;
       }
+      @media screen and (max-width: 780px) {
+        body {
+          background-color: #ccc;
+        }
+      }
+
+  
   

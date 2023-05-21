@@ -92,7 +92,7 @@ input{
     font-size: 14px;
 }
 #google-btn{
-    background: url(/assets/google.png);
+    background: url(/home/assets/google.png);
     background-size: 40px;
     background-position: left;
     background-clip: padding-box;
@@ -146,5 +146,8 @@ span{
     color:#932c2c;
 }
 @media screen and (max-width: 780px) {
-        
-}
+    body {
+      background-color: #ccc;
+    }
+  }
+
