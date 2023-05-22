@@ -4,18 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'sans-serif', Arial, Helvetica, 'Poppins' ;
-
+    font-family: 'Poppins', sans-serif ;
 }
 body{
-    /* font-family: poppins, sans-serif, Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(138, 128, 128); */
+    background-color: #D9D9D9;
     color: whitesmoke;
 }
 .header-container{
-    background-image:url(home/assets/image_1.jpg));
-    background-color: black;
-    padding: 20px;
+    background-image:url(home/assets/image_1.jpg);
     height: 850px;
     max-width: auto;
     width: auto;
@@ -34,11 +30,13 @@ body{
 h1{
     font-size: 50px;
     color: whitesmoke;
+    padding: 15px;
 }
 .span2{
    font-style: italic ; 
    color: white;
    padding: 10px;
+   border-radius: 15px 20px 5px 8px;
 }
 span{
     color: white;
@@ -48,21 +46,25 @@ span{
 }
  ul{
     display: inline;
-    margin-right: 100px;
+    margin-left: 200px;
     justify-content: end;
     padding-top: 10px;
   
 }
 li{
     display: inline;
-    padding: 12px;
-    margin: 10px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: end;
 }
  a{
     text-decoration: none;
     color: white;
     font-weight: 900;
+    padding: 10px;
 }
+
  .content-text{
     padding: 20px;
     margin: 10px ;
@@ -82,7 +84,7 @@ p{
     font-weight: 900;
 }
 button{
-    font-size: 1em;
+    font-size: 20px;
     background-color: #932C2C;
     color: white;
     font-weight: 700;
@@ -90,7 +92,7 @@ button{
     border: 2px solid #932C2C;
     border-radius: 10px;
     padding: 15px;
-    font-weight: 800;
+    /* font-weight: 500; */
     text-transform: uppercase;
 
 }
@@ -104,8 +106,6 @@ button:hover{
 }
 .home a{
     color: white ;
-    font-size: 18px ;
-
 }
 
 .home:hover{
@@ -115,10 +115,11 @@ button:hover{
     text-decoration-thickness: 4px;
     text-decoration-skip-ink: none;
     padding-bottom: 14px;
-} */
+} 
+
+
 .feature a{
     color: white ;
-    font-size: 18px ;
 }
 .feature a:hover{
     color: white ;
@@ -133,16 +134,8 @@ button:hover{
 }
 .login{
     color: white ;
-    background-color: black;
+    background-color: #932C2C;
     border-radius: 10px;
-    font-size: 18px ;
-
-}
-.signup{
-   display: none;
-}
-/* .dashboard a{
-    color: black ;
 }
 .dashboard a:hover{
     color: black ;
@@ -154,9 +147,10 @@ button:hover{
     text-decoration-thickness: 4px;
     text-decoration-skip-ink: none;
     padding-bottom: 14px;
-} */
+} 
 #feature{
     padding: 10px 0px 20px 0px;
+    /* margin: 20px; */
     color: #932C2C;
     margin: 10px;
     background-color: #D9D9D9;
@@ -175,6 +169,7 @@ button:hover{
     color: black;
     text-transform: uppercase;
 }
+
 .box-img{
     width: 100%;
     text-align: center;
@@ -196,339 +191,29 @@ button:hover{
     margin-top: 20px;
     text-align: center;
     text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
 }
 footer{
 background-color: #932C2C;
 color: whitesmoke;
-font-weight: 500;
+font-weight: 300;
+/* padding-bottom: 30px; */
 text-align: center;
 font-size: 10px;
 padding: 10px 10px 10px 10px;
 }
 .social{
-display: flex;  
-justify-content: center;
-font-size: 20px;
- }
-.facebook, .instagram, .twitter, .linkedin {
-    padding: 5px;
-    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+@media screen and (max-width: 780px) {
+    body {
+      background-color: #ccc;
+    }
+  }
 
-@media screen and (max-width: 768px) {
-    .header-container {
-        height: 600px;
-        }
-        .navbar{
-            text-align: right;
-            /* padding: 10px; */
-            display: list-item;
-            justify-content: space-around;
-            font-size: 40px;
-        }    
-    h1 {
-      font-size: 30px;
-      text-align: left;
-    }
-    .content-text {
-      padding-top: 100px;
-    }
-    h2 {
-      font-size: 2em;
-    }
-    p {
-      font-size: 1em;
-    }
-    button {
-      font-size: 0.8em;
-      padding: 10px;
-    }
-    .home a,
-    .feature a,
-    .login,
-    .signup,
-    .dashboard a {
-      font-size: 12px;
-    }
-    .login{
-        background-color: #932C2C;
-    }  
-    .login a{
-        color: white ;
-    }  
-
-    .feature-container{  
-      display: flex;
-      padding: 10px;
-      flex-direction: column;
-    }
-    .box-img h2 {
-      font-size: 1em;
-      padding: 5%;
-      margin-top: 10px;
-    }
-    footer {
-      font-size: 14px;
-      padding: 5px;
-    }
-    .social {
-      font-size: 10px;
-    }
-  }
-  
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-      .header-container {
-        height: 600px;
-        }
-        .navbar{
-            text-align: right;
-            /* padding: 10px; */
-            display: flex;
-            justify-content: space-between;
-        }    
-    h1 {
-      font-size: 40px;
-      text-align: left;
-    }
-    .content-text {
-      padding-top: 100px;
-    }
-    h2 {
-      font-size: 2.5em;
-    }
-    p {
-      font-size: 1.3em;
-    }
-    button {
-      font-size: 0.8em;
-      padding: 16px;
-    }
-    .home a,
-    .feature a,
-    .login,
-    .signup,
-    .dashboard a {
-      font-size: 14px;
-    }
-    .feature-container{  
-      display: flex;
-      padding: 10px;
-      flex-direction: column;
-    }
-    .box-img h2 {
-      font-size: 1.3em;
-      padding: 5%;
-      margin-top: 10px;
-    }
-    footer {
-      font-size: 14px;
-      padding: 5px;
-    }
-    .social {
-      font-size: 16px;
-    }
-  }
-  @media screen and (min-width: 1025px) {
-    .header-container{
-      background-image:url(/home/assets/image\ 1.jpg);
-      padding: 20px;
-      height: 850px;
-      max-width: auto;
-      width: auto;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative; 
-      margin: 0px;
-  }
-  .navbar{
-      text-align: right;
-      padding: 20px;
-      margin: 0px;
-      display: flex;
-      justify-content: space-between;
-  }
-  h1{
-      font-size: 50px;
-      color: whitesmoke;
-  }
-  .span2{
-     font-style: italic ; 
-     color: white;
-     padding: 10px;
-  }
-  span{
-      color: white;
-  }
-  .bar{
-      padding-top: 30px;
-  }
-   ul{
-      display: inline;
-      margin-right: 100px;
-      justify-content: end;
-      padding-top: 10px;
-    
-  }
-  li{
-      display: inline;
-      padding: 12px;
-      margin: 10px;
-  }
-   a{
-      text-decoration: none;
-      color: white;
-      font-weight: 900;
-  }
-   .content-text{
-      padding: 20px;
-      margin: 10px ;
-      text-align: center;
-      padding-top: 200px
-  }
-  h2{
-      font-size: 4em;
-      color: white;
-      padding-bottom: 20px;
-      text-transform: uppercase;
-      font-weight: 900;
-  }
-  p{
-      font-size: 1.6em;
-      color: white;
-      font-weight: 900;
-  }
-  button{
-      font-size: 1em;
-      background-color: #932C2C;
-      color: white;
-      font-weight: 700;
-      margin-top: 30px;
-      border: 2px solid #932C2C;
-      border-radius: 10px;
-      padding: 15px;
-      font-weight: 800;
-      text-transform: uppercase;
-  
-  }
-  button:hover{
-      background-color:  black;
-      color: white;
-      border: 2px solid black ;
-      transition: 0.3s;  
-      font-weight: 900;
-      text-transform: uppercase;
-  }
-  .home a{
-      color: white ;
-      font-size: 18px ;
-  
-  }
-  
-  .home:hover{
-      text-decoration:underline ;
-      text-decoration-color: black ;
-      border-radius: 10px;
-      text-decoration-thickness: 4px;
-      text-decoration-skip-ink: none;
-      padding-bottom: 14px;
-  } */
-  .feature a{
-      color: white ;
-      font-size: 18px ;
-  }
-  .feature a:hover{
-      color: white ;
-  }
-  .feature:hover{
-      text-decoration:underline ;
-      text-decoration-color: black ;
-      border-radius: 10px;
-      text-decoration-thickness: 4px;
-      text-decoration-skip-ink: none;
-      padding-bottom: 14px;
-  }
-  .login{
-      color: white ;
-      background-color: black;
-      border-radius: 10px;
-      font-size: 18px ;
-  
-  }
-  .signup{
-     display: none;
-  }
-  /* .dashboard a{
-      color: black ;
-  }
-  .dashboard a:hover{
-      color: black ;
-  }
-  .dashboard:hover{
-      text-decoration:underline ;
-      text-decoration-color: #932C2C ;
-      border-radius: 10px;
-      text-decoration-thickness: 4px;
-      text-decoration-skip-ink: none;
-      padding-bottom: 14px;
-  } */
-  #feature{
-      padding: 10px 0px 20px 0px;
-      color: #932C2C;
-      margin: 10px;
-      background-color: #D9D9D9;
-  }
-  .feature-container{  
-        background-color: #D9D9D9;
-        display: flex;
-        padding: 10px;
-  }
-  #feature h1{
-      font-size: 2.5em;
-      font-weight: 900;
-      text-align: center;
-      padding-bottom: 10px;
-      margin: 40px 10px 30px 10px;
-      color: black;
-      text-transform: uppercase;
-  }
-  .box-img{
-      width: 100%;
-      text-align: center;
-      padding: 10px;
-   }
-   img{
-      width: 80px;
-      width: 80px;
-   }
-   #feature-container-img{
-      width:  100%;
-      height: 100%;
-      text-align: center;
-   }
-  .box-img h2{
-      font-size: 1.4em;
-      color: black;
-      padding: 10%;
-      margin-top: 20px;
-      text-align: center;
-      text-transform: capitalize;
-  }
-  footer{
-  background-color: #932C2C;
-  color: whitesmoke;
-  font-weight: 500;
-  text-align: center;
-  font-size: 10px;
-  padding: 10px 10px 10px 10px;
-  }
-  .social{
-  display: flex;  
-  justify-content: center;
-  font-size: 20px;
-   }
-  .facebook, .instagram, .twitter, .linkedin {
-      padding: 5px;
-      margin: 5px;
-  }
-  
-  }

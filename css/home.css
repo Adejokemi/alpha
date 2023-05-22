@@ -12,7 +12,7 @@ body{
     color: whitesmoke;
 }
 .header-container{
-    background-image:url(../assets/image\ 1.jpg);
+    background-image:url(../home/home/assets/image_1.jpg);
     /* padding: 20px; */
     height: 850px;
     max-width: auto;
@@ -208,14 +208,19 @@ button:hover{
     text-align: center;
 }
 footer{
-background-color: #932C2C;
-color: whitesmoke;
-font-weight: 300;
-/* padding-bottom: 30px; */
-text-align: center;
-font-size: 10px;
-padding: 10px 10px 10px 10px;
-}
+    background-color: #932C2C;
+    color: whitesmoke;
+    font-weight: 300;
+    /* padding-bottom: 30px; */
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 @media screen and (max-width: 780px) {
     body {
       background-color: #ccc;

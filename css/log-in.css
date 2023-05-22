@@ -92,7 +92,7 @@ input{
     font-size: 14px;
 }
 #google-btn{
-    background: url(/home/assets/google.png);
+    background: url(../home/assets/google.png);
     background-size: 40px;
     background-position: left;
     background-clip: padding-box;
