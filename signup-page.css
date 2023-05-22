@@ -146,7 +146,7 @@ span{
       /* For Desktop View */
 @media screen and (min-width: 1024px) {
     .shoe {
-        background-color: whitesmoke;
+        background-color: #ccc;
         /* color: #fff; */
     }
   }
@@ -157,7 +157,7 @@ span{
     .shoe{
         width: 400px;
         height: 400px;
-        background-color: whitesmoke;
+        background-color: #ccc;
         /* color: black; */
     }
   }
@@ -168,7 +168,7 @@ span{
     .shoe {
         width: 200px;
         height: 200px;
-        background-color: whitesmoke;
+        background-color: #ccc;
         /* color: #fff; */
     }
   }
@@ -179,7 +179,7 @@ span{
     .shoe {
         width: 400px;
         height: 200px;
-        background-color: whitesmoke;
+        background-color: #ccc;
         /* color: black; */
     }
   }
