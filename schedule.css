@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/* This is for the TIIDETrack logo*/
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    padding-left: 150px;
+}
+.fa-bell{
+  padding-left: 850px;
+}
+.dashee{
+    background-color: #932c2c;
+    height: 16vh;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+ul{
+  margin-top: 30px;
+}
+li{
+    margin: 10px;
+}
+
+/* TIIDETrack logo  */
+/*  */
+/* boxes session */
+.schedule {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: white;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.firstline {
+  width: 100%;
+  display: flex;
+}
+
+h1.sched {
+  border: 0.5px solid rgb(21, 16, 16);
+  border-radius: 9px;
+  width: 65%;
+  padding: 15px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+p.line {
+  border: 0.5px solid black;
+  width: 15%;
+  border-radius: 9px;
+  height: 90px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.week {
+  width: 100%;
+  display: flex;
+}
+.time {
+  border: 0.5px solid black;
+  width: 14%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+.mon {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+.tue {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+
+.wed {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+.thur {
+  border: 0.5px solid black;
+  width: 15%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+.fri {
+  border: 0.5px solid black;
+  width: 15%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+.secondline {
+  display: flex;
+}
+p {
+  border: 0.5px solid black;
+  width: 14%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+
+#box1 {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+#box2 {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+}
+
+#box3 {
+  border: 0.5px solid black;
+  width: 17%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+#box4 {
+  border: 0.5px solid black;
+  width: 15%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+#box5 {
+  border: 0.5px solid black;
+  width: 15%;
+  border-radius: 9px;
+  padding-left: 40px;
+  height: 45px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+.thirdline,
+.forthline,
+.fifthline,
+.sixthline,
+.seventhline,
+.eightline {
+  display: flex;
+}
+
+#note {
+  border: 0.5px solid black;
+  border-radius: 9px;
+  width: 95%;
+  padding: 15px;
+  font-weight: lighter;
+}
+ /* For Desktop View */
+ @media screen and (min-width: 1024px) {
+  .shoe {
+      background-color: #ccc;
+      /* color: #fff; */
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+  .shoe{
+      width: 400px;
+      height: 400px;
+      background-color: #ccc;
+      /* color: black; */
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+  .shoe {
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      /* color: #fff; */
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+  .shoe {
+      width: 400px;
+      height: 200px;
+      background-color: #ccc;
+      /* color: black; */
+  }
+}
+

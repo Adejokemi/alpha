@@ -211,9 +211,44 @@ padding: 10px 10px 10px 10px;
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 780px) {
-    body {
-      background-color: #ccc;
+ /* For Desktop View */
+ @media screen and (min-width: 1024px) {
+    .shoe {
+        background-color: #ccc;
+        /* color: #fff; */
     }
   }
-
+  
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .shoe{
+        width: 400px;
+        height: 400px;
+        background-color: #ccc;
+        /* color: black; */
+    }
+  }
+  
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .shoe {
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        /* color: #fff; */
+    }
+  }
+  
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+    and (orientation: landscape) {
+    .shoe {
+        width: 400px;
+        height: 200px;
+        background-color: #ccc;
+        /* color: black; */
+    }
+  }
+  

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/* This is for the TIIDETrack logo*/
+.logo{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    padding-left: 150px;
+}
+.fa-bell{
+  padding-left: 800px;
+}
+.dashee{
+    background-color: #932c2c;
+    height: 16vh;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+ul{
+  margin-top: 30px;
+}
+li{
+    margin: 10px;
+}
+#calendar {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 30px;
+  }
+   /* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .shoe {
+      background-color: #ccc;
+      /* color: #fff; */
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+  .shoe{
+      width: 400px;
+      height: 400px;
+      background-color: #ccc;
+      /* color: black; */
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+  .shoe {
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      /* color: #fff; */
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+  .shoe {
+      width: 400px;
+      height: 200px;
+      background-color: #ccc;
+      /* color: black; */
+  }
+}
