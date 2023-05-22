@@ -11,6 +11,7 @@
 body{
     background-color: whitesmoke;
 }
+
 /* This is for the TIIDETrack logo*/
 .logo{
     font-size: 40px;
@@ -264,10 +265,10 @@ form {
         height: 30px;
       }
 
-  /* For Desktop View */
+     /* For Desktop View */
 @media screen and (min-width: 1024px) {
   .shoe {
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: #fff; */
   }
 }
@@ -278,7 +279,7 @@ form {
   .shoe{
       width: 400px;
       height: 400px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: black; */
   }
 }
@@ -289,7 +290,7 @@ form {
   .shoe {
       width: 200px;
       height: 200px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: #fff; */
   }
 }
@@ -300,7 +301,10 @@ form {
   .shoe {
       width: 400px;
       height: 200px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: black; */
   }
 }
+
+
+

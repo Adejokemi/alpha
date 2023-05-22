@@ -145,10 +145,10 @@ span{
 #sign-link:active{
     color:#932c2c;
 }
- /* For Desktop View */
- @media screen and (min-width: 1024px) {
+    /* For Desktop View */
+@media screen and (min-width: 1024px) {
     .shoe {
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: #fff; */
     }
   }
@@ -159,7 +159,7 @@ span{
     .shoe{
         width: 400px;
         height: 400px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: black; */
     }
   }
@@ -170,7 +170,7 @@ span{
     .shoe {
         width: 200px;
         height: 200px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: #fff; */
     }
   }
@@ -181,8 +181,11 @@ span{
     .shoe {
         width: 400px;
         height: 200px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: black; */
     }
   }
   
+  
+  
+ 

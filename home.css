@@ -211,10 +211,10 @@ padding: 10px 10px 10px 10px;
     justify-content: center;
     align-items: center;
 }
- /* For Desktop View */
- @media screen and (min-width: 1024px) {
+    /* For Desktop View */
+@media screen and (min-width: 1024px) {
     .shoe {
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: #fff; */
     }
   }
@@ -225,7 +225,7 @@ padding: 10px 10px 10px 10px;
     .shoe{
         width: 400px;
         height: 400px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: black; */
     }
   }
@@ -236,7 +236,7 @@ padding: 10px 10px 10px 10px;
     .shoe {
         width: 200px;
         height: 200px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: #fff; */
     }
   }
@@ -247,8 +247,11 @@ padding: 10px 10px 10px 10px;
     .shoe {
         width: 400px;
         height: 200px;
-        background-color: #ccc;
+        background-color: whitesmoke;
         /* color: black; */
     }
   }
   
+  
+  
+ 

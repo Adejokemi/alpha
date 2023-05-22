@@ -239,10 +239,10 @@ li{
       #myForm.show {
         display: block;
       }
-       /* For Desktop View */
+         /* For Desktop View */
 @media screen and (min-width: 1024px) {
   .shoe {
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: #fff; */
   }
 }
@@ -253,7 +253,7 @@ li{
   .shoe{
       width: 400px;
       height: 400px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: black; */
   }
 }
@@ -264,7 +264,7 @@ li{
   .shoe {
       width: 200px;
       height: 200px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: #fff; */
   }
 }
@@ -275,11 +275,10 @@ li{
   .shoe {
       width: 400px;
       height: 200px;
-      background-color: #ccc;
+      background-color: whitesmoke;
       /* color: black; */
   }
 }
 
 
-  
-  
+
